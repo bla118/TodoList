@@ -2,43 +2,43 @@
 
 /* Style the container div */
 .todo-container {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  /* Style the todo list */
-  .todo-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  /* Style individual todo items */
-  .todo-item {
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #fff;
-  }
-  
-  /* Style todo item title */
-  .todo-title {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  /* Style todo item description */
-  .todo-description {
-    margin-bottom: 5px;
-  }
-  
-  /* Style todo item created date and completion status */
-  .todo-details {
-    font-size: 14px;
-    color: #777;
-  }
-  
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+/* Style the todo list as a grid */
+.todo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style individual todo items */
+.todo-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Style todo item title */
+.todo-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style todo item description */
+.todo-description {
+  margin-bottom: 5px;
+}
+
+/* Style todo item created date and completion status */
+.todo-details {
+  font-size: 14px;
+  color: #777;
+}
